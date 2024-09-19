@@ -1,0 +1,14 @@
+header section{
+    min-height: 800px;
+}
+.nodec{
+    text-decoration: none;
+    color: black;
+}
+.hover-link {
+    cursor: pointer; 
+  }
+
+.bigicon{
+    font-size: 100px;
+}
