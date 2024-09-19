@@ -12,3 +12,15 @@ header section{
 .bigicon{
     font-size: 100px;
 }
+.cursive{
+    font-family: 'Courier New', Courier, monospace; 
+    font-family: cursive;
+}
+.text-dark {
+    --bs-text-opacity: 80%;
+    color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
+  }
+
+.greyback{
+    background-color: rgb(245, 243, 243);
+}
