@@ -39,9 +39,9 @@
                         <a class="col-1 nodec hover-link"> Portfolio </a>
                         <a class="col-1 nodec hover-link"> Team </a>
                         <a class="col-1 nodec hover-link"> Pricing </a>
-                        <a class="col-1 nodec me-4 hover-link" data-bs-toggle="dropdown" aria-expanded="false"> 
-                            Drop Down <i class="mdi mdi-menu-down"></i>
-                            <ul class="dropdown-menu">
+                        <a class="col-1 nodec me-4 hover-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 
+                            Drop Down 
+                            <ul class="dropdown-menu dropdown-menu-end" style="max-width: 300px">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -51,6 +51,7 @@
                     </div>
                 </div>
     </nav>
+
     <!-- SECTION About Us -->
     <main class="container-fluid">
         <h1 class="row text-center p-4 mt-4">
@@ -74,20 +75,114 @@
                     </div>
                     <p class="mt-2"> Ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ullamco laboris nisi ut aliquip ex ea commodo consequat.  Ullamco laboris nisi ut aliquip ex ea 
                 </div>
-
             </section>
+
         <!-- SECTION Dropdown Section -->
-        <section class="row justify-content-center p-4 g-0">
+        <section class="row justify-content-center p-4 g-0 mb-4">
             <div class="col-6 text-dark greyback">
                 <h2 class="fw-medium">Eum ipsam laborum deleniti <strong>velit pariatur rchitecto aut nihil</strong></h2>
                 <p>Lorem ipsum dolo sit amet, consectetur adipsicing elit, sed do eiusmod tempor incdiudnt ut labore et dolore magna aliqua.DUis aute irure dolor in reprehenderit</p>
-                <div class="row align-items-base">
+                <div class="row bg-white p-2 m-4 d-flex">
                     <p class="col-1 fw-bold">01</p>
-                    <p class="col-11"> Non consectetur a erat nam at lectus urna duis?</p>
+                    <p class="col-9"> Non consectetur a erat nam at lectus urna duis?</p>
+                    <button class="col-1 nodec me-4 hover-link text-end dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none; padding:0; margin:0;"> 
+                        <ul class="dropdown-menu dropdown-menu-end" style="max-width: 300px">
+                            <p><a class="dropdown-item" href="#" style="white-space: normal;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea</a></p>
+                        </ul>
+                    </button>
+                </div>
+                <div class="row bg-white p-2 m-4 d-flex">
+                    <p class="col-1 fw-bold">01</p>
+                    <p class="col-9"> Non consectetur a erat nam at lectus urna duis?</p>
+                    <button class="col-1 nodec me-4 hover-link text-end dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none; padding:0; margin:0;"> 
+                        <ul class="dropdown-menu dropdown-menu-end" style="max-width: 300px">
+                            <p><a class="dropdown-item" href="#" style="white-space: normal;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea</a></p>
+                        </ul>
+                    </button>
+                    </div>
+                    <div class="row bg-white p-2 m-4 d-flex">
+                        <p class="col-1 fw-bold">01</p>
+                        <p class="col-9"> Non consectetur a erat nam at lectus urna duis?</p>
+                        <button class="col-1 nodec me-4 hover-link text-end dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none; padding:0; margin:0;"> 
+                            <ul class="dropdown-menu dropdown-menu-end" style="max-width: 300px">
+                                <p><a class="dropdown-item" href="#" style="white-space: normal;">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Ullamco laboris nisi ut aliquip ex ea</a></p>
+                            </ul>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <img class="col-4" src="headway-5QgIuuBxKwM-unsplash.jpg" alt="image">
+            <div class="image-container col-4 position-relative">
+                <div class=" text-success play-button position-absolute top-50 start-50 translate-middle">
+                    <i class="mdi mdi-play-circle-outline fs-1"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION Pricing -->
+        <section class="row">
+            <h1 class="col text-center mt-4">PRICING</h1>
+            <p class="text-center">Magnam commodi susipit eius consequatur ex aliquid fuga eum quidem</p>
+        </section>
+        <section class="row d-flex">
+            <div class="col-3 text-center shadow m-2">
+                <div class="big-mar">
+                    <p>FREE</p>
+                    <p class="fs-4"><i class="mdi mdi-currency-usd"></i>0 <span class="light-text">/month</span></p>
+                    <p>aida defer</p>
+                    <p>nec feuigat nisl</p>
+                    <p>nulla at volutpat dola</p>
+                    <p><span class="light-text text-decoration-line-through"> pharetra mass</span></p>
+                    <p><span class="light-text text-decoration-line-through"> somethin else</span></p>
+                    <button class="btn btn-outline-success mb-4" style="--bs-btn-padding-x: 2rem">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-3 text-center shadow m-2">
+                <p class=" mt-1 text-success light-green btn btn-success text-center">recomended</p>
+                <p>Buisness</p>
+                <p class="fs-4"><i class="mdi mdi-currency-usd"></i>19<span class="light-text">/month</span></p>
+                <p>aida defer</p>
+                <p>nec feuigat nisl</p>
+                <p>nulla at volutpat dola</p>
+                <p><span class="light-text text-decoration-line-through"> pharetra mass</span></p>
+                <p><span class="light-text text-decoration-line-through"> somethin else</span></p>
+                <button class="btn btn-success mb-4" style="--bs-btn-padding-x: 2rem">Buy Now</button>
+            </div>
+            <div class="col-3 text-center shadow m-2">
+                <div class="big-mar">
+                    <p class="mt-4">Developer</p>
+                    <p class="fs-4"><i class="mdi mdi-currency-usd"></i>29 <span class="light-text">/month</span></p>
+                    <p>aida defer</p>
+                    <p>nec feuigat nisl</p>
+                    <p>nulla at volutpat dola</p>
+                    <p><span class="light-text text-decoration-line-through"> pharetra mass</span></p>
+                    <p><span class="light-text text-decoration-line-through"> somethin else</span></p>
+                    <button class="btn btn-outline-success mb-4" style="--bs-btn-padding-x: 2rem">Buy Now</button>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- SECTION Footer -->
+    <footer class="container-fluid g-0 mt-4">
+        <section class=" row background-footer text-center justify-content-center align-items-center text-light">
+            <h3 class="col-5">
+                <i class="mdi mdi-chess-knight medicon"></i>
+                <p>
+                    Welcome To Knight Studios
+                </p>    
+                <p class="fs-6 text-light">We are a team of talented Designers</p>
+                <span class="bg-white text-dark rounded mt-2 fw-light fs-4 p-2">Enter your email
+                    <button class="btn btn-success">Subscribe</button>
+                </span>
+            </h3>
+            <div class="col-md-12">
+                <i class="bg-success p-2 mdi mdi-twitter"></i>
+                <i class="bg-success p-2 mdi mdi-facebook"></i>
+                <i class="bg-success p-2 mdi mdi-instagram"></i>
+                <i class="bg-success p-2 mdi mdi-linkedin"></i>
+            </div>
+        </section>
+
+    </footer>
 </body>
 </html>
